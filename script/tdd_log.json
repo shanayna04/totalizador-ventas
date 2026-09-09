@@ -30,9 +30,23 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f4da8653025e2844adb54bea144890ab037f42aa",
     "commitName": "feat(totalizador): calcular precio neto correctamente",
     "commitTimestamp": 1788993868622,
     "testId": 1
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 1,
+    "numTotalTests": 2,
+    "timestamp": 1788994003129,
+    "success": false,
+    "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test(totalizador): agregar prueba fallida para validacion de cantidad y precio",
+    "commitTimestamp": 1788994060508,
+    "testId": 2
   }
 ]
