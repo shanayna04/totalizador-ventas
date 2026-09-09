@@ -1,0 +1,16 @@
+[
+  {
+    "numPassedTests": 0,
+    "failedTests": 1,
+    "numTotalTests": 1,
+    "timestamp": 1788993456662,
+    "success": false,
+    "testId": 0
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test(totalizador): agregar prueba fallida para calculo de precio neto",
+    "commitTimestamp": 1788993533640,
+    "testId": 0
+  }
+]

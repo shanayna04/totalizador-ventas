@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "Shanayna De Ugarte",
+    "commit": {
+      "date": "2026-09-09T22:38:52.000Z",
+      "message": "test(totalizador): agregar prueba fallida para calculo de precio neto",
+      "url": "https://github.com/shanayna04/totalizador-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 40,
+      "additions": 16,
+      "deletions": 24,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 1,
+    "conclusion": "failure"
+  }
+]
