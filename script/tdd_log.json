@@ -8,9 +8,31 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "34ca8c78526db650fb08575663ad698c0a70625f",
     "commitName": "test(totalizador): agregar prueba fallida para calculo de precio neto",
     "commitTimestamp": 1788993533640,
     "testId": 0
+  },
+  {
+    "numPassedTests": 0,
+    "failedTests": 0,
+    "numTotalTests": 0,
+    "timestamp": 1788993717209,
+    "success": false,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 0,
+    "numTotalTests": 1,
+    "timestamp": 1788993819292,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(totalizador): calcular precio neto correctamente",
+    "commitTimestamp": 1788993868622,
+    "testId": 1
   }
 ]

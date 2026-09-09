@@ -1,6 +1,5 @@
 function calcularPrecioNeto(cantidad, precio) {
-  // Retornamos 0 para que falle intencionalmente (ROJO)
-  return 0;
+  return cantidad * precio;
 }
 
 export { calcularPrecioNeto };

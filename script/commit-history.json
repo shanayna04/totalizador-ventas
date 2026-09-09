@@ -1,11 +1,11 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "34ca8c78526db650fb08575663ad698c0a70625f",
     "author": "Shanayna De Ugarte",
     "commit": {
       "date": "2026-09-09T22:38:52.000Z",
       "message": "test(totalizador): agregar prueba fallida para calculo de precio neto",
-      "url": "https://github.com/shanayna04/totalizador-ventas/commit/HEAD"
+      "url": "https://github.com/shanayna04/totalizador-ventas/commit/34ca8c78526db650fb08575663ad698c0a70625f"
     },
     "stats": {
       "total": 40,
@@ -17,5 +17,24 @@
     "test_count": 1,
     "failed_tests": 1,
     "conclusion": "failure"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Shanayna De Ugarte",
+    "commit": {
+      "date": "2026-09-09T22:44:28.000Z",
+      "message": "feat(totalizador): calcular precio neto correctamente",
+      "url": "https://github.com/shanayna04/totalizador-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 2,
+      "deletions": 3,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
   }
 ]
