@@ -5,6 +5,7 @@ import {
   calcularTotalBase,
   obtenerReglasCategoria,
   calcularCostoEnvio,
+  obtenerDescuentoEnvioCliente,
 } from "./totalizador.js";
 
 describe("Totalizador de Ventas - Slice 1: Precio Neto", () => {
@@ -76,3 +77,13 @@ describe("Totalizador de Ventas - Slice 9: Costo de Envio por Peso", () => {
     expect(calcularCostoEnvio(2, 15)).toEqual(7);
   });
 });
+
+describe("Totalizador de Ventas - Slice 10: Descuento de Envio por Tipo de Cliente", () => {
+  it("deberia retornar el porcentaje de descuento en envio segun el tipo de cliente", () => {
+    expect(obtenerDescuentoEnvioCliente("Normal")).toEqual(0);
+    expect(obtenerDescuentoEnvioCliente("Recurrente")).toEqual(0.005);
+    expect(obtenerDescuentoEnvioCliente("Antiguo Recurrente")).toEqual(0.01);
+    expect(obtenerDescuentoEnvioCliente("Especial")).toEqual(0.015);
+  });
+});
+

@@ -90,6 +90,10 @@ function calcularCostoEnvio(cantidad, pesoVolumetrico) {
   return Number((costoUnitario * cantidad).toFixed(2));
 }
 
+function obtenerDescuentoEnvioCliente(tipoCliente) {
+  return -1; // Provoca el fallo intencional
+}
+
 
 export {
   calcularPrecioNeto,
@@ -97,7 +101,8 @@ export {
   obtenerPorcentajeDescuento,
   calcularTotalBase,
   obtenerReglasCategoria,
-  calcularCostoEnvio
+  calcularCostoEnvio,
+  obtenerDescuentoEnvioCliente,
 };
 
 
