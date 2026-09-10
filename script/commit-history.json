@@ -38,12 +38,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8880550c0e094c85a56e9c5a31fab8492afdb2a7",
     "author": "Shanayna De Ugarte",
     "commit": {
       "date": "2026-09-09T22:47:40.000Z",
       "message": "test(totalizador): agregar prueba fallida para validacion de cantidad y precio",
-      "url": "https://github.com/shanayna04/totalizador-ventas/commit/HEAD"
+      "url": "https://github.com/shanayna04/totalizador-ventas/commit/8880550c0e094c85a56e9c5a31fab8492afdb2a7"
     },
     "stats": {
       "total": 8,
@@ -55,5 +55,24 @@
     "test_count": 2,
     "failed_tests": 1,
     "conclusion": "failure"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Shanayna De Ugarte",
+    "commit": {
+      "date": "2026-09-10T00:52:14.000Z",
+      "message": "feat(totalizador): validar que cantidad y precio sean mayores a cero",
+      "url": "https://github.com/shanayna04/totalizador-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 6,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
   }
 ]

@@ -44,9 +44,23 @@
     "testId": 2
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8880550c0e094c85a56e9c5a31fab8492afdb2a7",
     "commitName": "test(totalizador): agregar prueba fallida para validacion de cantidad y precio",
     "commitTimestamp": 1788994060508,
     "testId": 2
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 0,
+    "numTotalTests": 2,
+    "timestamp": 1789001470991,
+    "success": true,
+    "testId": 3
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(totalizador): validar que cantidad y precio sean mayores a cero",
+    "commitTimestamp": 1789001534885,
+    "testId": 3
   }
 ]
