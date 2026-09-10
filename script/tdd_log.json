@@ -192,9 +192,23 @@
     "testId": 12
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1732f5ad271ecda3e8768ed1f01609b23135ebc8",
     "commitName": "test(totalizador): agregar prueba fallida para calculo de total base",
     "commitTimestamp": 1789003399885,
     "testId": 12
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 0,
+    "numTotalTests": 7,
+    "timestamp": 1789003520610,
+    "success": true,
+    "testId": 13
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(totalizador): calcular subtotal con descuento e impuesto base de la orden",
+    "commitTimestamp": 1789003549549,
+    "testId": 13
   }
 ]

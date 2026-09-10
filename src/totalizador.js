@@ -32,8 +32,26 @@ function obtenerPorcentajeDescuento(precioNeto) {
   return 0;
 }
 
-function calcularTotalBase(cantidad, precio, estado) {
-  return {}; // Provoca el fallo intencional
+function calcularTotalBase(cantidad, precio, estado = "CA") {
+  const neto = calcularPrecioNeto(cantidad, precio);
+  if (typeof neto === "string") return neto;
+
+  const tasaImpuesto = obtenerImpuestoEstado(estado);
+  if (typeof tasaImpuesto === "string") return tasaImpuesto;
+
+  const tasaDescuento = obtenerPorcentajeDescuento(neto);
+  const descuentoMonto = neto * tasaDescuento;
+  const subtotalConDescuento = neto - descuentoMonto;
+  const impuestoMonto = Number((subtotalConDescuento * tasaImpuesto).toFixed(2));
+  const total = Number((subtotalConDescuento + impuestoMonto).toFixed(2));
+
+  return {
+    neto,
+    descuentoMonto,
+    subtotalConDescuento,
+    impuestoMonto,
+    total,
+  };
 }
 
 export {
