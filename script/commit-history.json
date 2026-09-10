@@ -114,12 +114,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6a0c1b135d13e5096d81538ead7ab62d8dceac0d",
     "author": "Shanayna De Ugarte",
     "commit": {
       "date": "2026-09-10T01:06:14.000Z",
       "message": "test(totalizador): agregar prueba fallida para impuestos restantes y estado invalido",
-      "url": "https://github.com/shanayna04/totalizador-ventas/commit/HEAD"
+      "url": "https://github.com/shanayna04/totalizador-ventas/commit/6a0c1b135d13e5096d81538ead7ab62d8dceac0d"
     },
     "stats": {
       "total": 9,
@@ -131,5 +131,24 @@
     "test_count": 4,
     "failed_tests": 1,
     "conclusion": "failure"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Shanayna De Ugarte",
+    "commit": {
+      "date": "2026-09-10T01:08:44.000Z",
+      "message": "feat(totalizador): soportar todos los estados e identificar estado invalido",
+      "url": "https://github.com/shanayna04/totalizador-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 11,
+      "deletions": 6,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
   }
 ]

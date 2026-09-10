@@ -100,9 +100,23 @@
     "testId": 6
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6a0c1b135d13e5096d81538ead7ab62d8dceac0d",
     "commitName": "test(totalizador): agregar prueba fallida para impuestos restantes y estado invalido",
     "commitTimestamp": 1789002374370,
     "testId": 6
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1789002493219,
+    "success": true,
+    "testId": 7
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(totalizador): soportar todos los estados e identificar estado invalido",
+    "commitTimestamp": 1789002524426,
+    "testId": 7
   }
 ]

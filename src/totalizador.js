@@ -9,13 +9,18 @@ function calcularPrecioNeto(cantidad, precio) {
 }
 
 function obtenerImpuestoEstado(estado) {
-  if (estado === "CA") {
-    return 0.0825;
+  const impuestos = {
+    UT: 0.0665,
+    NV: 0.08,
+    TX: 0.0625,
+    AL: 0.04,
+    CA: 0.0825,
+  };
+
+  if (impuestos[estado] !== undefined) {
+    return impuestos[estado];
   }
-  if (estado === "TX") {
-    return 0.0625;
-  }
-  return 0; 
+  return "Estado invalido"; 
 }
 
 export { calcularPrecioNeto, obtenerImpuestoEstado };
