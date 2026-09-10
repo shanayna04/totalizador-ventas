@@ -24,7 +24,10 @@ function obtenerImpuestoEstado(estado) {
 }
 
 function obtenerPorcentajeDescuento(precioNeto) {
-  return null; // Forzamos el fallo
+  if (precioNeto >= 1000) {
+    return 0.03;
+  }
+  return 0;
 }
 
 export {

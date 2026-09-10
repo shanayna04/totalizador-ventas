@@ -128,9 +128,31 @@
     "testId": 8
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a1af3dd58a8be8f900450d9d992ca2ec4b1970b7",
     "commitName": "test(totalizador): agregar prueba fallida para descuento inicial de 3%",
     "commitTimestamp": 1789002757687,
     "testId": 8
+  },
+  {
+    "numPassedTests": 0,
+    "failedTests": 0,
+    "numTotalTests": 0,
+    "timestamp": 1789002844960,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 0,
+    "numTotalTests": 5,
+    "timestamp": 1789002871924,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(totalizador): aplicar tasa de descuento de 3% para montos desde 1000",
+    "commitTimestamp": 1789002907621,
+    "testId": 9
   }
 ]
