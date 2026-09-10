@@ -178,9 +178,23 @@
     "testId": 11
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8e03a5b31c4dc801d37042b3bb48519d75c8107a",
     "commitName": "feat(totalizador): implementar tramos completos de descuento por volumen",
     "commitTimestamp": 1789003230963,
     "testId": 11
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 1,
+    "numTotalTests": 7,
+    "timestamp": 1789003377322,
+    "success": false,
+    "testId": 12
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test(totalizador): agregar prueba fallida para calculo de total base",
+    "commitTimestamp": 1789003399885,
+    "testId": 12
   }
 ]

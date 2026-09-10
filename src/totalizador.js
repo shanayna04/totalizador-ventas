@@ -32,10 +32,15 @@ function obtenerPorcentajeDescuento(precioNeto) {
   return 0;
 }
 
+function calcularTotalBase(cantidad, precio, estado) {
+  return {}; // Provoca el fallo intencional
+}
+
 export {
   calcularPrecioNeto,
   obtenerImpuestoEstado,
   obtenerPorcentajeDescuento,
+  calcularTotalBase,
 };
 
 

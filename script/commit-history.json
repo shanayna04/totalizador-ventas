@@ -209,12 +209,12 @@
     "conclusion": "failure"
   },
   {
-    "sha": "HEAD",
+    "sha": "8e03a5b31c4dc801d37042b3bb48519d75c8107a",
     "author": "Shanayna De Ugarte",
     "commit": {
       "date": "2026-09-10T01:20:30.000Z",
       "message": "feat(totalizador): implementar tramos completos de descuento por volumen",
-      "url": "https://github.com/shanayna04/totalizador-ventas/commit/HEAD"
+      "url": "https://github.com/shanayna04/totalizador-ventas/commit/8e03a5b31c4dc801d37042b3bb48519d75c8107a"
     },
     "stats": {
       "total": 8,
@@ -226,5 +226,24 @@
     "test_count": 6,
     "failed_tests": 0,
     "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Shanayna De Ugarte",
+    "commit": {
+      "date": "2026-09-10T01:23:19.000Z",
+      "message": "test(totalizador): agregar prueba fallida para calculo de total base",
+      "url": "https://github.com/shanayna04/totalizador-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 16,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 7,
+    "failed_tests": 1,
+    "conclusion": "failure"
   }
 ]

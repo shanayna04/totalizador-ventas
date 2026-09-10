@@ -2,6 +2,7 @@ import {
   calcularPrecioNeto,
   obtenerImpuestoEstado,
   obtenerPorcentajeDescuento,
+  calcularTotalBase,
 } from "./totalizador.js";
 
 describe("Totalizador de Ventas - Slice 1: Precio Neto", () => {
@@ -44,5 +45,15 @@ describe("Totalizador de Ventas - Slice 6: Tramos restantes de descuento por vol
     expect(obtenerPorcentajeDescuento(7000)).toEqual(0.07);
     expect(obtenerPorcentajeDescuento(10000)).toEqual(0.1);
     expect(obtenerPorcentajeDescuento(30000)).toEqual(0.15);
+  });
+});
+
+describe("Totalizador de Ventas - Slice 7: Calculo de Total Base", () => {
+  it("deberia calcular subtotal, impuesto y total final para 20 items a $3 en TX", () => {
+    const resultado = calcularTotalBase(20, 3, "TX");
+    expect(resultado.neto).toEqual(60);
+    expect(resultado.descuentoMonto).toEqual(0);
+    expect(resultado.impuestoMonto).toEqual(3.75);
+    expect(resultado.total).toEqual(63.75);
   });
 });
