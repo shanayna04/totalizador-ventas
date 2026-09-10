@@ -248,9 +248,23 @@
     "testId": 16
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8a1c549046160467186e2faf072ec11e5e962462",
     "commitName": "test(totalizador): agregar prueba fallida para calculo de costo de envio",
     "commitTimestamp": 1789003925791,
     "testId": 16
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1789004036212,
+    "success": true,
+    "testId": 17
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(totalizador): calcular costo de envio por peso volumetrico",
+    "commitTimestamp": 1789004055364,
+    "testId": 17
   }
 ]

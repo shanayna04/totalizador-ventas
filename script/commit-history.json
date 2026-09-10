@@ -304,12 +304,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8a1c549046160467186e2faf072ec11e5e962462",
     "author": "Shanayna De Ugarte",
     "commit": {
       "date": "2026-09-10T01:32:05.000Z",
       "message": "test(totalizador): agregar prueba fallida para calculo de costo de envio",
-      "url": "https://github.com/shanayna04/totalizador-ventas/commit/HEAD"
+      "url": "https://github.com/shanayna04/totalizador-ventas/commit/8a1c549046160467186e2faf072ec11e5e962462"
     },
     "stats": {
       "total": 17,
@@ -321,5 +321,24 @@
     "test_count": 9,
     "failed_tests": 1,
     "conclusion": "failure"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Shanayna De Ugarte",
+    "commit": {
+      "date": "2026-09-10T01:34:15.000Z",
+      "message": "feat(totalizador): calcular costo de envio por peso volumetrico",
+      "url": "https://github.com/shanayna04/totalizador-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 20,
+      "additions": 19,
+      "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 85.71,
+    "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
   }
 ]

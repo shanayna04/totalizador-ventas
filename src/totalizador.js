@@ -69,7 +69,25 @@ function obtenerReglasCategoria(categoria) {
 }
 
 function calcularCostoEnvio(cantidad, pesoVolumetrico) {
-  return -1; // Provoca el fallo intencional
+  let costoUnitario = 0;
+
+  if (pesoVolumetrico > 200) {
+    costoUnitario = 9;
+  } else if (pesoVolumetrico >= 101) {
+    costoUnitario = 8;
+  } else if (pesoVolumetrico >= 81) {
+    costoUnitario = 6.5;
+  } else if (pesoVolumetrico >= 41) {
+    costoUnitario = 6;
+  } else if (pesoVolumetrico >= 21) {
+    costoUnitario = 5;
+  } else if (pesoVolumetrico >= 11) {
+    costoUnitario = 3.5;
+  } else {
+    costoUnitario = 0;
+  }
+
+  return Number((costoUnitario * cantidad).toFixed(2));
 }
 
 
