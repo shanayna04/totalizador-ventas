@@ -266,12 +266,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "316d576da17dbbb3f51e292e0ee9aa1e208a570b",
     "author": "Shanayna De Ugarte",
     "commit": {
       "date": "2026-09-10T01:27:39.000Z",
       "message": "test(totalizador): agregar prueba fallida para reglas por categoria",
-      "url": "https://github.com/shanayna04/totalizador-ventas/commit/HEAD"
+      "url": "https://github.com/shanayna04/totalizador-ventas/commit/316d576da17dbbb3f51e292e0ee9aa1e208a570b"
     },
     "stats": {
       "total": 13,
@@ -283,5 +283,24 @@
     "test_count": 8,
     "failed_tests": 1,
     "conclusion": "failure"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Shanayna De Ugarte",
+    "commit": {
+      "date": "2026-09-10T01:29:08.000Z",
+      "message": "feat(totalizador): implementar reglas de impuesto y descuento por categoria",
+      "url": "https://github.com/shanayna04/totalizador-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 11,
+      "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 94.12,
+    "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
   }
 ]

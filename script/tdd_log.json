@@ -220,9 +220,23 @@
     "testId": 14
   },
   {
-    "commitId": "HEAD",
+    "commitId": "316d576da17dbbb3f51e292e0ee9aa1e208a570b",
     "commitName": "test(totalizador): agregar prueba fallida para reglas por categoria",
     "commitTimestamp": 1789003659255,
     "testId": 14
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1789003722897,
+    "success": true,
+    "testId": 15
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(totalizador): implementar reglas de impuesto y descuento por categoria",
+    "commitTimestamp": 1789003748430,
+    "testId": 15
   }
 ]
