@@ -380,12 +380,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a2033386fafc0046e1dd662868ba42731c59694c",
     "author": "Shanayna De Ugarte",
     "commit": {
       "date": "2026-09-10T01:40:17.000Z",
       "message": "test(totalizador): agregar prueba fallida para descuento fijo condicional",
-      "url": "https://github.com/shanayna04/totalizador-ventas/commit/HEAD"
+      "url": "https://github.com/shanayna04/totalizador-ventas/commit/a2033386fafc0046e1dd662868ba42731c59694c"
     },
     "stats": {
       "total": 13,
@@ -397,5 +397,24 @@
     "test_count": 11,
     "failed_tests": 1,
     "conclusion": "failure"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Shanayna De Ugarte",
+    "commit": {
+      "date": "2026-09-10T01:42:13.000Z",
+      "message": "feat(totalizador): aplicar descuentos de monto fijo segun cliente y categoria",
+      "url": "https://github.com/shanayna04/totalizador-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 7,
+      "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 87.5,
+    "test_count": 11,
+    "failed_tests": 0,
+    "conclusion": "success"
   }
 ]

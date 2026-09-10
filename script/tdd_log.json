@@ -304,9 +304,23 @@
     "testId": 20
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a2033386fafc0046e1dd662868ba42731c59694c",
     "commitName": "test(totalizador): agregar prueba fallida para descuento fijo condicional",
     "commitTimestamp": 1789004417261,
     "testId": 20
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1789004505205,
+    "success": true,
+    "testId": 21
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(totalizador): aplicar descuentos de monto fijo segun cliente y categoria",
+    "commitTimestamp": 1789004533537,
+    "testId": 21
   }
 ]

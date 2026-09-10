@@ -102,7 +102,13 @@ function obtenerDescuentoEnvioCliente(tipoCliente) {
 }
 
 function calcularDescuentoFijo(tipoCliente, categoria, precioNeto) {
-  return -1; // Provoca el fallo intencional
+  if (tipoCliente === "Recurrente" && categoria === "Alimentos" && precioNeto > 3000) {
+    return 100;
+  }
+  if (tipoCliente === "Especial" && categoria === "Electronicos" && precioNeto > 7000) {
+    return 200;
+  }
+  return 0;
 }
 
 export {
