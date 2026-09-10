@@ -57,12 +57,12 @@
     "conclusion": "failure"
   },
   {
-    "sha": "HEAD",
+    "sha": "7fdbe49f900933ad1485fce5d7ce53d13338ae19",
     "author": "Shanayna De Ugarte",
     "commit": {
       "date": "2026-09-10T00:52:14.000Z",
       "message": "feat(totalizador): validar que cantidad y precio sean mayores a cero",
-      "url": "https://github.com/shanayna04/totalizador-ventas/commit/HEAD"
+      "url": "https://github.com/shanayna04/totalizador-ventas/commit/7fdbe49f900933ad1485fce5d7ce53d13338ae19"
     },
     "stats": {
       "total": 6,
@@ -74,5 +74,24 @@
     "test_count": 2,
     "failed_tests": 0,
     "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Shanayna De Ugarte",
+    "commit": {
+      "date": "2026-09-10T00:58:48.000Z",
+      "message": "test(totalizador): agregar prueba fallida para impuesto de CA y TX",
+      "url": "https://github.com/shanayna04/totalizador-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 12,
+      "deletions": 2,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 3,
+    "failed_tests": 1,
+    "conclusion": "failure"
   }
 ]

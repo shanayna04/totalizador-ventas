@@ -58,9 +58,23 @@
     "testId": 3
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7fdbe49f900933ad1485fce5d7ce53d13338ae19",
     "commitName": "feat(totalizador): validar que cantidad y precio sean mayores a cero",
     "commitTimestamp": 1789001534885,
     "testId": 3
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 1,
+    "numTotalTests": 3,
+    "timestamp": 1789001834852,
+    "success": false,
+    "testId": 4
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test(totalizador): agregar prueba fallida para impuesto de CA y TX",
+    "commitTimestamp": 1789001928559,
+    "testId": 4
   }
 ]
