@@ -318,9 +318,23 @@
     "testId": 21
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e9b508c1fa8ff606080afa8cbeed4566f7b21278",
     "commitName": "feat(totalizador): aplicar descuentos de monto fijo segun cliente y categoria",
     "commitTimestamp": 1789004533537,
     "testId": 21
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 1,
+    "numTotalTests": 12,
+    "timestamp": 1789004640297,
+    "success": false,
+    "testId": 22
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test(totalizador): agregar prueba fallida para calculo maestro integrado",
+    "commitTimestamp": 1789004680184,
+    "testId": 22
   }
 ]

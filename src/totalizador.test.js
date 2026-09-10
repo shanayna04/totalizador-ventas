@@ -7,6 +7,7 @@ import {
   calcularCostoEnvio,
   obtenerDescuentoEnvioCliente,
   calcularDescuentoFijo,
+  calcularTotalOrden,
 } from "./totalizador.js";
 
 describe("Totalizador de Ventas - Slice 1: Precio Neto", () => {
@@ -94,5 +95,18 @@ describe("Totalizador de Ventas - Slice 11: Descuento Fijo por Cliente", () => {
     expect(calcularDescuentoFijo("Especial", "Electronicos", 8000)).toEqual(200);
     expect(calcularDescuentoFijo("Normal", "Alimentos", 5000)).toEqual(0);
     expect(calcularDescuentoFijo("Recurrente", "Alimentos", 2000)).toEqual(0);
+  });
+});
+
+describe("Totalizador de Ventas - Slice 12: Calculo Total Integrado", () => {
+  it("deberia calcular correctamente la orden completa con todas las variables", () => {
+    // Ejemplo: 2 items a $100 c/u, estado CA (8.25%), Alimentos (+2% desc, +0% imp), peso 5 (costo $0), cliente Normal
+    // Neto = 200, Desc por volumen = 0%, Desc categoria = 2% (4$), Subtotal = 196
+    // Impuesto CA (8.25%) de 196 = 16.17
+    // Envio = 0
+    // Total = 196 + 16.17 = 212.17
+    const resultado = calcularTotalOrden(2, 100, "CA", "Alimentos", 5, "Normal");
+    expect(resultado.neto).toEqual(200);
+    expect(resultado.total).toEqual(212.17);
   });
 });

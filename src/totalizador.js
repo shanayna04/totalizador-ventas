@@ -111,6 +111,10 @@ function calcularDescuentoFijo(tipoCliente, categoria, precioNeto) {
   return 0;
 }
 
+function calcularTotalOrden(cantidad, precio, estado = "CA", categoria = "Varios", peso = 0, cliente = "Normal") {
+  return {}; // Provoca el fallo intencional
+}
+
 export {
   calcularPrecioNeto,
   obtenerImpuestoEstado,
@@ -120,6 +124,7 @@ export {
   calcularCostoEnvio,
   obtenerDescuentoEnvioCliente,
   calcularDescuentoFijo,
+  calcularTotalOrden,
 };
 
 
