@@ -1,4 +1,8 @@
-import { calcularPrecioNeto, obtenerImpuestoEstado } from "./totalizador.js";
+import {
+  calcularPrecioNeto,
+  obtenerImpuestoEstado,
+  obtenerPorcentajeDescuento,
+} from "./totalizador.js";
 
 describe("Totalizador de Ventas - Slice 1: Precio Neto", () => {
   it("deberia calcular el precio neto multiplicando cantidad por precio unitario", () => {
@@ -24,5 +28,12 @@ describe("Totalizador de Ventas - Slice 4: Impuestos restantes y validacion", ()
     expect(obtenerImpuestoEstado("NV")).toEqual(0.08);
     expect(obtenerImpuestoEstado("AL")).toEqual(0.04);
     expect(obtenerImpuestoEstado("XX")).toEqual("Estado invalido");
+  });
+});
+
+describe("Totalizador de Ventas - Slice 5: Descuento por volumen tramo inicial", () => {
+  it("deberia retornar 0% para montos menores a 1000 y 3% para montos mayores o iguales a 1000", () => {
+    expect(obtenerPorcentajeDescuento(500)).toEqual(0);
+    expect(obtenerPorcentajeDescuento(1000)).toEqual(0.03);
   });
 });

@@ -23,5 +23,14 @@ function obtenerImpuestoEstado(estado) {
   return "Estado invalido"; 
 }
 
-export { calcularPrecioNeto, obtenerImpuestoEstado };
+function obtenerPorcentajeDescuento(precioNeto) {
+  return null; // Forzamos el fallo
+}
+
+export {
+  calcularPrecioNeto,
+  obtenerImpuestoEstado,
+  obtenerPorcentajeDescuento,
+};
+
 

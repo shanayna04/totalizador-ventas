@@ -114,9 +114,23 @@
     "testId": 7
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f7f848ddd7c602a75c70439b7135d45eda841f2f",
     "commitName": "feat(totalizador): soportar todos los estados e identificar estado invalido",
     "commitTimestamp": 1789002524426,
     "testId": 7
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 1,
+    "numTotalTests": 5,
+    "timestamp": 1789002695263,
+    "success": false,
+    "testId": 8
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test(totalizador): agregar prueba fallida para descuento inicial de 3%",
+    "commitTimestamp": 1789002757687,
+    "testId": 8
   }
 ]
