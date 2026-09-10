@@ -9,7 +9,14 @@ function calcularPrecioNeto(cantidad, precio) {
 }
 
 function obtenerImpuestoEstado(estado) {
-  return 0; // Provoca el fallo intencional
+  if (estado === "CA") {
+    return 0.0825;
+  }
+  if (estado === "TX") {
+    return 0.0625;
+  }
+  return 0; 
 }
 
 export { calcularPrecioNeto, obtenerImpuestoEstado };
+
