@@ -86,9 +86,23 @@
     "testId": 5
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a6fba75e338cd953b483b57fe81950a19c13c898",
     "commitName": "feat(totalizador): calcular impuesto base para CA y TX",
     "commitTimestamp": 1789002218418,
     "testId": 5
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 1,
+    "numTotalTests": 4,
+    "timestamp": 1789002277996,
+    "success": false,
+    "testId": 6
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test(totalizador): agregar prueba fallida para impuestos restantes y estado invalido",
+    "commitTimestamp": 1789002374370,
+    "testId": 6
   }
 ]

@@ -17,3 +17,12 @@ describe("Totalizador de Ventas - Slice 3: Impuesto base por estado", () => {
     expect(obtenerImpuestoEstado("TX")).toEqual(0.0625);
   });
 });
+
+describe("Totalizador de Ventas - Slice 4: Impuestos restantes y validacion", () => {
+  it("deberia retornar impuestos para UT (6.65%), NV (8.00%), AL (4.00%) y error para estado invalido", () => {
+    expect(obtenerImpuestoEstado("UT")).toEqual(0.0665);
+    expect(obtenerImpuestoEstado("NV")).toEqual(0.08);
+    expect(obtenerImpuestoEstado("AL")).toEqual(0.04);
+    expect(obtenerImpuestoEstado("XX")).toEqual("Estado invalido");
+  });
+});

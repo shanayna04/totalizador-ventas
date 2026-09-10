@@ -95,12 +95,12 @@
     "conclusion": "failure"
   },
   {
-    "sha": "HEAD",
+    "sha": "a6fba75e338cd953b483b57fe81950a19c13c898",
     "author": "Shanayna De Ugarte",
     "commit": {
       "date": "2026-09-10T01:03:38.000Z",
       "message": "feat(totalizador): calcular impuesto base para CA y TX",
-      "url": "https://github.com/shanayna04/totalizador-ventas/commit/HEAD"
+      "url": "https://github.com/shanayna04/totalizador-ventas/commit/a6fba75e338cd953b483b57fe81950a19c13c898"
     },
     "stats": {
       "total": 9,
@@ -112,5 +112,24 @@
     "test_count": 3,
     "failed_tests": 0,
     "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Shanayna De Ugarte",
+    "commit": {
+      "date": "2026-09-10T01:06:14.000Z",
+      "message": "test(totalizador): agregar prueba fallida para impuestos restantes y estado invalido",
+      "url": "https://github.com/shanayna04/totalizador-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 9,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 4,
+    "failed_tests": 1,
+    "conclusion": "failure"
   }
 ]
