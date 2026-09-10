@@ -361,12 +361,12 @@
     "conclusion": "failure"
   },
   {
-    "sha": "HEAD",
+    "sha": "c1e0a7b6f5a0b04583877dc67464df564b9e7e31",
     "author": "Shanayna De Ugarte",
     "commit": {
       "date": "2026-09-10T01:38:33.000Z",
       "message": "feat(totalizador): aplicar porcentaje de descuento de envio por tipo de cliente",
-      "url": "https://github.com/shanayna04/totalizador-ventas/commit/HEAD"
+      "url": "https://github.com/shanayna04/totalizador-ventas/commit/c1e0a7b6f5a0b04583877dc67464df564b9e7e31"
     },
     "stats": {
       "total": 9,
@@ -378,5 +378,24 @@
     "test_count": 10,
     "failed_tests": 0,
     "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Shanayna De Ugarte",
+    "commit": {
+      "date": "2026-09-10T01:40:17.000Z",
+      "message": "test(totalizador): agregar prueba fallida para descuento fijo condicional",
+      "url": "https://github.com/shanayna04/totalizador-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 13,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 86.54,
+    "test_count": 11,
+    "failed_tests": 1,
+    "conclusion": "failure"
   }
 ]

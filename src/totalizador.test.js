@@ -6,6 +6,7 @@ import {
   obtenerReglasCategoria,
   calcularCostoEnvio,
   obtenerDescuentoEnvioCliente,
+  calcularDescuentoFijo,
 } from "./totalizador.js";
 
 describe("Totalizador de Ventas - Slice 1: Precio Neto", () => {
@@ -87,3 +88,11 @@ describe("Totalizador de Ventas - Slice 10: Descuento de Envio por Tipo de Clien
   });
 });
 
+describe("Totalizador de Ventas - Slice 11: Descuento Fijo por Cliente", () => {
+  it("deberia aplicar $100 para Recurrente en Alimentos con neto > 3000 y $200 para Especial en Electronicos con neto > 7000", () => {
+    expect(calcularDescuentoFijo("Recurrente", "Alimentos", 3500)).toEqual(100);
+    expect(calcularDescuentoFijo("Especial", "Electronicos", 8000)).toEqual(200);
+    expect(calcularDescuentoFijo("Normal", "Alimentos", 5000)).toEqual(0);
+    expect(calcularDescuentoFijo("Recurrente", "Alimentos", 2000)).toEqual(0);
+  });
+});

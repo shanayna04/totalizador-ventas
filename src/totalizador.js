@@ -101,6 +101,9 @@ function obtenerDescuentoEnvioCliente(tipoCliente) {
   return descuentos[tipoCliente] !== undefined ? descuentos[tipoCliente] : 0;
 }
 
+function calcularDescuentoFijo(tipoCliente, categoria, precioNeto) {
+  return -1; // Provoca el fallo intencional
+}
 
 export {
   calcularPrecioNeto,
@@ -110,6 +113,7 @@ export {
   obtenerReglasCategoria,
   calcularCostoEnvio,
   obtenerDescuentoEnvioCliente,
+  calcularDescuentoFijo,
 };
 
 
