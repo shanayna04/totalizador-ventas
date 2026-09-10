@@ -67,12 +67,19 @@ function obtenerReglasCategoria(categoria) {
 
   return reglas[categoria] || reglas["Varios"];
 }
+
+function calcularCostoEnvio(cantidad, pesoVolumetrico) {
+  return -1; // Provoca el fallo intencional
+}
+
+
 export {
   calcularPrecioNeto,
   obtenerImpuestoEstado,
   obtenerPorcentajeDescuento,
   calcularTotalBase,
   obtenerReglasCategoria,
+  calcularCostoEnvio
 };
 
 

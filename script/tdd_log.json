@@ -234,9 +234,23 @@
     "testId": 15
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7a410bb651d16ebb1550627047811084f2504795",
     "commitName": "feat(totalizador): implementar reglas de impuesto y descuento por categoria",
     "commitTimestamp": 1789003748430,
     "testId": 15
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 1,
+    "numTotalTests": 9,
+    "timestamp": 1789003900779,
+    "success": false,
+    "testId": 16
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test(totalizador): agregar prueba fallida para calculo de costo de envio",
+    "commitTimestamp": 1789003925791,
+    "testId": 16
   }
 ]

@@ -4,6 +4,7 @@ import {
   obtenerPorcentajeDescuento,
   calcularTotalBase,
   obtenerReglasCategoria,
+  calcularCostoEnvio,
 } from "./totalizador.js";
 
 describe("Totalizador de Ventas - Slice 1: Precio Neto", () => {
@@ -64,5 +65,14 @@ describe("Totalizador de Ventas - Slice 8: Reglas por Categoria", () => {
     expect(obtenerReglasCategoria("Varios")).toEqual({ impuestoAdicional: 0, descuentoAdicional: 0 });
     expect(obtenerReglasCategoria("Bebidas alcoholicas")).toEqual({ impuestoAdicional: 0.07, descuentoAdicional: 0 });
     expect(obtenerReglasCategoria("Alimentos")).toEqual({ impuestoAdicional: 0, descuentoAdicional: 0.02 });
+  });
+});
+
+describe("Totalizador de Ventas - Slice 9: Costo de Envio por Peso", () => {
+  it("deberia calcular el envio unitario segun el peso y multiplicarlo por la cantidad", () => {
+    // 5 items con peso 5 kg (rango 0-10 -> $0 c/u) = $0
+    expect(calcularCostoEnvio(5, 5)).toEqual(0);
+    // 2 items con peso 15 kg (rango 11-20 -> $3.5 c/u) = $7
+    expect(calcularCostoEnvio(2, 15)).toEqual(7);
   });
 });
