@@ -418,12 +418,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "13139d45f67f3b1782439ff5fa74d71ce6d8ee85",
     "author": "Shanayna De Ugarte",
     "commit": {
       "date": "2026-09-10T01:44:39.000Z",
       "message": "test(totalizador): agregar prueba fallida para calculo maestro integrado",
-      "url": "https://github.com/shanayna04/totalizador-ventas/commit/HEAD"
+      "url": "https://github.com/shanayna04/totalizador-ventas/commit/13139d45f67f3b1782439ff5fa74d71ce6d8ee85"
     },
     "stats": {
       "total": 19,
@@ -435,5 +435,24 @@
     "test_count": 12,
     "failed_tests": 1,
     "conclusion": "failure"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Shanayna De Ugarte",
+    "commit": {
+      "date": "2026-09-10T01:49:48.000Z",
+      "message": "feat(totalizador): corregir parametro tipoCliente e integrar calculo maestro",
+      "url": "https://github.com/shanayna04/totalizador-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 45,
+      "additions": 43,
+      "deletions": 2,
+      "date": "2026-09-10"
+    },
+    "coverage": 88.16,
+    "test_count": 12,
+    "failed_tests": 0,
+    "conclusion": "success"
   }
 ]

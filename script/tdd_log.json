@@ -332,9 +332,31 @@
     "testId": 22
   },
   {
-    "commitId": "HEAD",
+    "commitId": "13139d45f67f3b1782439ff5fa74d71ce6d8ee85",
     "commitName": "test(totalizador): agregar prueba fallida para calculo maestro integrado",
     "commitTimestamp": 1789004680184,
     "testId": 22
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 1,
+    "numTotalTests": 12,
+    "timestamp": 1789004826102,
+    "success": false,
+    "testId": 23
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 0,
+    "numTotalTests": 12,
+    "timestamp": 1789004955139,
+    "success": true,
+    "testId": 23
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(totalizador): corregir parametro tipoCliente e integrar calculo maestro",
+    "commitTimestamp": 1789004988648,
+    "testId": 23
   }
 ]

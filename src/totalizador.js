@@ -111,8 +111,49 @@ function calcularDescuentoFijo(tipoCliente, categoria, precioNeto) {
   return 0;
 }
 
-function calcularTotalOrden(cantidad, precio, estado = "CA", categoria = "Varios", peso = 0, cliente = "Normal") {
-  return {}; // Provoca el fallo intencional
+function calcularTotalOrden(
+  cantidad,
+  precio,
+  estado = "CA",
+  categoria = "Varios",
+  pesoVolumetrico = 0,
+  tipoCliente = "Normal"
+) {
+  const neto = calcularPrecioNeto(cantidad, precio);
+  if (typeof neto === "string") return { error: neto };
+
+  const tasaImpuestoBase = obtenerImpuestoEstado(estado);
+  if (typeof tasaImpuestoBase === "string") return { error: tasaImpuestoBase };
+
+  const reglasCat = obtenerReglasCategoria(categoria);
+  const tasaDescVolumen = obtenerPorcentajeDescuento(neto);
+  const tasaDescTotal = tasaDescVolumen + reglasCat.descuentoAdicional;
+  const descuentoPorcentajeMonto = Number((neto * tasaDescTotal).toFixed(2));
+
+  const descuentoFijoMonto = calcularDescuentoFijo(tipoCliente, categoria, neto);
+  const subtotalConDescuentos = Number(
+    (neto - descuentoPorcentajeMonto - descuentoFijoMonto).toFixed(2)
+  );
+
+  const tasaImpuestoTotal = tasaImpuestoBase + reglasCat.impuestoAdicional;
+  const impuestoMonto = Number((subtotalConDescuentos * tasaImpuestoTotal).toFixed(2));
+
+  const costoEnvioBase = calcularCostoEnvio(cantidad, pesoVolumetrico);
+  const tasaDescEnvio = obtenerDescuentoEnvioCliente(tipoCliente);
+  const descuentoEnvioMonto = Number((costoEnvioBase * tasaDescEnvio).toFixed(2));
+  const envioFinal = Number((costoEnvioBase - descuentoEnvioMonto).toFixed(2));
+
+  const total = Number((subtotalConDescuentos + impuestoMonto + envioFinal).toFixed(2));
+
+  return {
+    neto,
+    descuentoPorcentajeMonto,
+    descuentoFijoMonto,
+    subtotalConDescuentos,
+    impuestoMonto,
+    envioFinal,
+    total,
+  };
 }
 
 export {
