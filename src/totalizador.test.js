@@ -37,3 +37,12 @@ describe("Totalizador de Ventas - Slice 5: Descuento por volumen tramo inicial",
     expect(obtenerPorcentajeDescuento(1000)).toEqual(0.03);
   });
 });
+
+describe("Totalizador de Ventas - Slice 6: Tramos restantes de descuento por volumen", () => {
+  it("deberia retornar el porcentaje correcto para 3000, 7000, 10000 y 30000", () => {
+    expect(obtenerPorcentajeDescuento(3000)).toEqual(0.05);
+    expect(obtenerPorcentajeDescuento(7000)).toEqual(0.07);
+    expect(obtenerPorcentajeDescuento(10000)).toEqual(0.1);
+    expect(obtenerPorcentajeDescuento(30000)).toEqual(0.15);
+  });
+});

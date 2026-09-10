@@ -171,12 +171,12 @@
     "conclusion": "failure"
   },
   {
-    "sha": "HEAD",
+    "sha": "24a3a83ee932b6a122e022ba39fbd0335fda3e59",
     "author": "Shanayna De Ugarte",
     "commit": {
       "date": "2026-09-10T01:15:07.000Z",
       "message": "feat(totalizador): aplicar tasa de descuento de 3% para montos desde 1000",
-      "url": "https://github.com/shanayna04/totalizador-ventas/commit/HEAD"
+      "url": "https://github.com/shanayna04/totalizador-ventas/commit/24a3a83ee932b6a122e022ba39fbd0335fda3e59"
     },
     "stats": {
       "total": 5,
@@ -188,5 +188,24 @@
     "test_count": 5,
     "failed_tests": 0,
     "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Shanayna De Ugarte",
+    "commit": {
+      "date": "2026-09-10T01:16:43.000Z",
+      "message": "test(totalizador): agregar prueba fallida para tramos restantes de descuento",
+      "url": "https://github.com/shanayna04/totalizador-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 9,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 6,
+    "failed_tests": 1,
+    "conclusion": "failure"
   }
 ]

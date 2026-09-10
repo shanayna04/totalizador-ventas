@@ -150,9 +150,23 @@
     "testId": 9
   },
   {
-    "commitId": "HEAD",
+    "commitId": "24a3a83ee932b6a122e022ba39fbd0335fda3e59",
     "commitName": "feat(totalizador): aplicar tasa de descuento de 3% para montos desde 1000",
     "commitTimestamp": 1789002907621,
     "testId": 9
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 1,
+    "numTotalTests": 6,
+    "timestamp": 1789002950881,
+    "success": false,
+    "testId": 10
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test(totalizador): agregar prueba fallida para tramos restantes de descuento",
+    "commitTimestamp": 1789003003320,
+    "testId": 10
   }
 ]
