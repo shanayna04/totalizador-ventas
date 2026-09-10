@@ -437,17 +437,36 @@
     "conclusion": "failure"
   },
   {
-    "sha": "HEAD",
+    "sha": "8d296a2f43df0988ab33f5af841c3def69fd39ad",
     "author": "Shanayna De Ugarte",
     "commit": {
       "date": "2026-09-10T01:49:48.000Z",
       "message": "feat(totalizador): corregir parametro tipoCliente e integrar calculo maestro",
-      "url": "https://github.com/shanayna04/totalizador-ventas/commit/HEAD"
+      "url": "https://github.com/shanayna04/totalizador-ventas/commit/8d296a2f43df0988ab33f5af841c3def69fd39ad"
     },
     "stats": {
       "total": 45,
       "additions": 43,
       "deletions": 2,
+      "date": "2026-09-10"
+    },
+    "coverage": 88.16,
+    "test_count": 12,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Shanayna De Ugarte",
+    "commit": {
+      "date": "2026-09-10T01:55:23.000Z",
+      "message": "feat(presenter): conectar formulario de interfaz con desglose de orden",
+      "url": "https://github.com/shanayna04/totalizador-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 101,
+      "additions": 92,
+      "deletions": 9,
       "date": "2026-09-10"
     },
     "coverage": 88.16,

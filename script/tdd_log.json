@@ -354,9 +354,23 @@
     "testId": 23
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8d296a2f43df0988ab33f5af841c3def69fd39ad",
     "commitName": "feat(totalizador): corregir parametro tipoCliente e integrar calculo maestro",
     "commitTimestamp": 1789004988648,
     "testId": 23
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 0,
+    "numTotalTests": 12,
+    "timestamp": 1789005253785,
+    "success": true,
+    "testId": 24
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(presenter): conectar formulario de interfaz con desglose de orden",
+    "commitTimestamp": 1789005323474,
+    "testId": 24
   }
 ]
