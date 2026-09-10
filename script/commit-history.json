@@ -247,12 +247,12 @@
     "conclusion": "failure"
   },
   {
-    "sha": "HEAD",
+    "sha": "6b75b48fd5ec6eb345c5cb0d4c4b469b2302c9a6",
     "author": "Shanayna De Ugarte",
     "commit": {
       "date": "2026-09-10T01:25:49.000Z",
       "message": "feat(totalizador): calcular subtotal con descuento e impuesto base de la orden",
-      "url": "https://github.com/shanayna04/totalizador-ventas/commit/HEAD"
+      "url": "https://github.com/shanayna04/totalizador-ventas/commit/6b75b48fd5ec6eb345c5cb0d4c4b469b2302c9a6"
     },
     "stats": {
       "total": 22,
@@ -264,5 +264,24 @@
     "test_count": 7,
     "failed_tests": 0,
     "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Shanayna De Ugarte",
+    "commit": {
+      "date": "2026-09-10T01:27:39.000Z",
+      "message": "test(totalizador): agregar prueba fallida para reglas por categoria",
+      "url": "https://github.com/shanayna04/totalizador-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 13,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 93.94,
+    "test_count": 8,
+    "failed_tests": 1,
+    "conclusion": "failure"
   }
 ]

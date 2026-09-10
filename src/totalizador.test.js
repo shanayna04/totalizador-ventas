@@ -3,6 +3,7 @@ import {
   obtenerImpuestoEstado,
   obtenerPorcentajeDescuento,
   calcularTotalBase,
+  obtenerReglasCategoria,
 } from "./totalizador.js";
 
 describe("Totalizador de Ventas - Slice 1: Precio Neto", () => {
@@ -55,5 +56,13 @@ describe("Totalizador de Ventas - Slice 7: Calculo de Total Base", () => {
     expect(resultado.descuentoMonto).toEqual(0);
     expect(resultado.impuestoMonto).toEqual(3.75);
     expect(resultado.total).toEqual(63.75);
+  });
+});
+
+describe("Totalizador de Ventas - Slice 8: Reglas por Categoria", () => {
+  it("deberia retornar impuestos y descuentos adicionales por categoria", () => {
+    expect(obtenerReglasCategoria("Varios")).toEqual({ impuestoAdicional: 0, descuentoAdicional: 0 });
+    expect(obtenerReglasCategoria("Bebidas alcoholicas")).toEqual({ impuestoAdicional: 0.07, descuentoAdicional: 0 });
+    expect(obtenerReglasCategoria("Alimentos")).toEqual({ impuestoAdicional: 0, descuentoAdicional: 0.02 });
   });
 });

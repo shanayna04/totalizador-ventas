@@ -54,11 +54,15 @@ function calcularTotalBase(cantidad, precio, estado = "CA") {
   };
 }
 
+function obtenerReglasCategoria(categoria) {
+  return null; // Forzamos el fallo intencional
+}
 export {
   calcularPrecioNeto,
   obtenerImpuestoEstado,
   obtenerPorcentajeDescuento,
   calcularTotalBase,
+  obtenerReglasCategoria,
 };
 
 

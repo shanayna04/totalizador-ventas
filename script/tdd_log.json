@@ -206,9 +206,23 @@
     "testId": 13
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6b75b48fd5ec6eb345c5cb0d4c4b469b2302c9a6",
     "commitName": "feat(totalizador): calcular subtotal con descuento e impuesto base de la orden",
     "commitTimestamp": 1789003549549,
     "testId": 13
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 1,
+    "numTotalTests": 8,
+    "timestamp": 1789003639053,
+    "success": false,
+    "testId": 14
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test(totalizador): agregar prueba fallida para reglas por categoria",
+    "commitTimestamp": 1789003659255,
+    "testId": 14
   }
 ]
