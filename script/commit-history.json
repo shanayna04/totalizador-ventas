@@ -342,12 +342,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1eabfe69eceb9daea019d146d30752fff16a52a8",
     "author": "Shanayna De Ugarte",
     "commit": {
       "date": "2026-09-10T01:36:25.000Z",
       "message": "test(totalizador): agregar prueba fallida para descuento de envio por cliente",
-      "url": "https://github.com/shanayna04/totalizador-ventas/commit/HEAD"
+      "url": "https://github.com/shanayna04/totalizador-ventas/commit/1eabfe69eceb9daea019d146d30752fff16a52a8"
     },
     "stats": {
       "total": 20,
@@ -359,5 +359,24 @@
     "test_count": 10,
     "failed_tests": 1,
     "conclusion": "failure"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Shanayna De Ugarte",
+    "commit": {
+      "date": "2026-09-10T01:38:33.000Z",
+      "message": "feat(totalizador): aplicar porcentaje de descuento de envio por tipo de cliente",
+      "url": "https://github.com/shanayna04/totalizador-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 8,
+      "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 86.27,
+    "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
   }
 ]

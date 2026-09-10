@@ -276,9 +276,23 @@
     "testId": 18
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1eabfe69eceb9daea019d146d30752fff16a52a8",
     "commitName": "test(totalizador): agregar prueba fallida para descuento de envio por cliente",
     "commitTimestamp": 1789004185500,
     "testId": 18
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 0,
+    "numTotalTests": 10,
+    "timestamp": 1789004293933,
+    "success": true,
+    "testId": 19
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(totalizador): aplicar porcentaje de descuento de envio por tipo de cliente",
+    "commitTimestamp": 1789004313867,
+    "testId": 19
   }
 ]

@@ -91,7 +91,14 @@ function calcularCostoEnvio(cantidad, pesoVolumetrico) {
 }
 
 function obtenerDescuentoEnvioCliente(tipoCliente) {
-  return -1; // Provoca el fallo intencional
+  const descuentos = {
+    Normal: 0,
+    Recurrente: 0.005,
+    "Antiguo Recurrente": 0.01,
+    Especial: 0.015,
+  };
+
+  return descuentos[tipoCliente] !== undefined ? descuentos[tipoCliente] : 0;
 }
 
 
